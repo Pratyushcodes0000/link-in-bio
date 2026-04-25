@@ -23,6 +23,13 @@ body {
   width: min(100%, 520px);
   margin: 0 auto;
   padding-top: clamp(1rem, 6vh, 3rem);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.container.is-visible,
+.links.is-visible {
+  opacity: 1;
 }
 
 .tag {
@@ -75,6 +82,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
 }
 
 ul {
