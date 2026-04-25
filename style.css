@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html,body {
   min-height: 100%;
   overflow-x: hidden;
 }
@@ -95,14 +94,14 @@ ul {
 }
 
 li {
-  background-color: #fffa;
+  background-color: rgba(255, 255, 255, 0.56);
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   margin-bottom: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
   border-radius: 30px;
   padding: clamp(0.95rem, 3.5vw, 1.25rem) clamp(1rem, 7vw, 2.5rem);
   width: 100%;
-  box-shadow: 0 14px 40px rgba(5, 20, 39, 0.12);
 }
 
 a {
